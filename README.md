@@ -30,13 +30,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+- .forEach iterates elements in array and returns undefined.
+- .map iterates elements in array and returns new array with modified elements.
+
 2. What is the difference between a function and a method?
+
+- function is used outside of object and class.
+- method is used inside of object and class.
 
 3. What is closure?
 
+- Closure provides encapsulation to a variable by creating lexical environment.
+
 4. Describe the four rules of the 'this' keyword.
 
+- default binding: this refers window if "use strict" is not used
+- implicit binding: this refers one dot before object of property.
+- explicit binding: .call and .will explicitly binds this
+- new binding: new will create a new instance that this refers to.
+
 5. Why do we need super() in an extended class?
+
+- super() will explicitly bind parent class to child class.
 
 ## Project Set up
 
@@ -66,15 +81,15 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [x] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [x] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [x] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
